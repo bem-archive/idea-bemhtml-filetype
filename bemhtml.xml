@@ -13,7 +13,7 @@
     </options>
     <keywords keywords="attrs;bem;block;cls;content;default;elem;js;jsattr;mix;mods;tag" ignore_case="true" />
     <keywords2 keywords="ctx;this._buf;this.generateid();this.isfirst();this.islast();this.position" />
-    <keywords3 keywords="apply;applyctx;applynext;local" />
+    <keywords3 keywords="apply;applyCtx;applyNext;local" />
     <keywords4 keywords="_this;this" />
   </highlighting>
   <extensionMap>
