@@ -1,0 +1,31 @@
+block blockName, mod modName modValue, elem blockElemName, elemMod elemModName elemModValue {
+
+    default: {
+        tag: ''
+        js: ''
+        bem: ''
+        cls: ''
+        mix: ''
+        jsAttr: ''
+        attrs: ''
+        content: this.ctx.content
+
+        this.isArray();
+        this.isSimple();
+        this.isShortTag();
+        this.extend();
+        this.identify();
+        this.xmlEscape();
+        this.attrEscape();
+        this.jsAttrEscape();
+        this.isFirst();
+        this.isLast();
+        this.generateId();
+
+        apply();
+        applyCtx();
+        applyNext();
+        local();
+        reapply();
+    }
+}

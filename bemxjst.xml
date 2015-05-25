@@ -1,4 +1,4 @@
-<filetype binary="false" description="bemhtml (old syntax)" name="bemhtml">
+<filetype binary="false" description="bemtree, bemhtml (old syntax)" name="bemxjst">
   <highlighting>
     <options>
       <option name="LINE_COMMENT" value="//" />
@@ -11,10 +11,10 @@
       <option name="HAS_PARENS" value="true" />
       <option name="HAS_STRING_ESCAPES" value="true" />
     </options>
-    <keywords keywords="attrs;bem;block;cls;content;default;elem;js;jsattr;mix;mods;tag" ignore_case="true" />
-    <keywords2 keywords="ctx;this._buf;this.generateid();this.isfirst();this.islast();this.position" />
-    <keywords3 keywords="apply;applyCtx;applyNext;local" />
-    <keywords4 keywords="_this;this" />
+    <keywords keywords="attrs;bem;block;cls;content;default;elem;elemMod;js;jsAttr;mix;mod;mods;tag" ignore_case="false" />
+    <keywords2 keywords="_buf;attrEscape;ctx;extend;generateId;identify;isArray;isFirst;isLast;isShortTag;isShorttag;isSimple;jsAttrEscape;position;xmlEscape" />
+    <keywords3 keywords="apply;applyCtx;applyNext;local;reapply" />
+    <keywords4 keywords="_mode;_this;this" />
   </highlighting>
   <extensionMap>
     <mapping ext="bemhtml" />
