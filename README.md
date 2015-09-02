@@ -6,10 +6,8 @@
 - OS X
   - ~/Library/Preferences/IntelliJIdea14/filetypes/
   - ~/Library/Preferences/WebStorm9/filetypes/
-
 - Windows
   - C:\Users\%username%\.WebStorm10\config\filetypes
-
 - Linux
   - ~/.WebStorm10/config
 2. Перезапустите редактор
